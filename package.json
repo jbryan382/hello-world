@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "hello-world",
+  "homepage": "nowhere",
+  "scripts": {
+    "deploy": "echo You have no deployment tool configured",
+    "postdeploy": "echo 'Your site was deployed to nowhere'",
+    "start": "browser-sync start --server 'public' --files 'public'"
+  },
+  "installConfig": {
+    "pnp": true
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "stylelint": "^9.10.1",
+    "stylelint-config-standard": "^18.2.0"
+  }
+}
