@@ -1,14 +1,11 @@
 {
   "private": true,
   "name": "hello-world",
-  "homepage": "nowhere",
+  "homepage": "https://hello-world-.netlify.com",
   "scripts": {
-    "deploy": "echo You have no deployment tool configured",
-    "postdeploy": "echo 'Your site was deployed to nowhere'",
+    "deploy": "netlify deploy --prod --dir=public",
+    "postdeploy": "echo 'Your site was deployed to https://hello-world-.netlify.com'",
     "start": "browser-sync start --server 'public' --files 'public'"
-  },
-  "installConfig": {
-    "pnp": true
   },
   "devDependencies": {
     "browser-sync": "^2.26.3",
